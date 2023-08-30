@@ -1,0 +1,13 @@
+.grafico {
+  height: 500px !important;
+  width: 110vh !important;
+  max-width: 100%;
+}
+
+/* Media query per dispositivi con larghezza massima di 768px (tipicamente smartphone) 
+ */
+@media (max-width: 768px) {
+  .grafico {
+    height: 300px !important;
+  }
+}

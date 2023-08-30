@@ -1,0 +1,42 @@
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 60vh;
+  max-width: auto;
+  color: rgb(0, 0, 0);
+  background-color: rgb(244, 249, 252);
+  background-image: url("../HomeBackgroundHearth.jpg"); /* Sostituisci con il percorso dell'immagine */
+  background-size: cover; /* Adatta l'immagine alle dimensioni del contenitore */
+  background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
+  /* Altri stili desiderati per il contenitore */
+}
+
+.cover-container {
+  background-image: url("../HomeBackgroundHearth.jpg"); /* Sostituisci con il percorso dell'immagine */
+}
+/* 
+.title {
+} */
+
+.immagine-sfondo {
+  height: 100vh;
+  background-image: url("../HomeBackgroundHearth.jpg"); /* Sostituisci con il percorso dell'immagine */
+  background-size: cover; /* Adatta l'immagine alle dimensioni del contenitore */
+  background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
+}
+
+/* Media query per dispositivi con larghezza massima di 768px (tipicamente smartphone) */
+@media (max-width: 768px) {
+  .navbar > .container-fluid {
+    justify-content: center !important;
+  }
+
+  .immagine-sfondo {
+    height: 60vh;
+    background-image: url("../HomeBackgroundHearth.jpg"); /* Sostituisci con il percorso dell'immagine */
+    background-size: cover; /* Adatta l'immagine alle dimensioni del contenitore */
+    background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
+  }
+}
