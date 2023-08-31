@@ -23,7 +23,7 @@ const Footer = () => {
           <div className="col-4 d-flex justify-content-center">
             <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
               <li>
-                <a href="https://www.google.it">
+                <a href="https://www.facebook.com/alessandro.agliano.1">
                   {" "}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://www.google.it">
+                <a href="https://www.instagram.com/alessandroagliano/">
                   {" "}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +53,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://www.google.it">
+                <a href="https://github.com/alessandroagliano">
                   {" "}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
