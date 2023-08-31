@@ -7,9 +7,7 @@ import Metano from "./Components/Metano/Metano";
 import NO2 from "./Components/NO2/NO2";
 import Temperature from "./Components/Temperature/Temperature";
 import ChiSono from "./Components/Chi sono/ChiSono";
-/* import Header from "./Header/Header";
-import Section from "./Section/Section";
-import Footer from "./Footer/Footer"; */
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 

@@ -46,14 +46,7 @@ export const Navbar = () => {
                 /> */}
                   <div className="card-img-overlay d-flex flex-column">
                     <div className="card-body">
-                      <h4 className="card-title mt-0 ">
-                        <a
-                          className="text-dark"
-                          herf="https://creativemanner.com"
-                        >
-                          Metano{" "}
-                        </a>
-                      </h4>
+                      <h4 className="card-title mt-0 ">Metano </h4>
                     </div>
                   </div>
                 </div>
@@ -77,12 +70,13 @@ export const Navbar = () => {
                   <div className="card-img-overlay d-flex flex-column">
                     <div className="card-body">
                       <h4 className="card-title mt-0 ">
-                        <a
+                        {/*  <a
                           className="text-dark"
                           herf="https://creativemanner.com"
-                        >
-                          Temperatura{" "}
-                        </a>
+                        > */}
+                        Temperatura{" "}
+                        {/*                         </a>
+                         */}{" "}
                       </h4>
                     </div>
                   </div>
@@ -107,12 +101,13 @@ export const Navbar = () => {
                   <div className="card-img-overlay d-flex flex-column">
                     <div className="card-body">
                       <h4 className="card-title mt-0 ">
-                        <a
+                        {/*   <a
                           className="text-dark"
                           herf="https://creativemanner.com"
-                        >
-                          NO2{" "}
-                        </a>
+                        > */}
+                        NO2{" "}
+                        {/*                         </a>
+                         */}{" "}
                       </h4>
                     </div>
                   </div>
@@ -137,12 +132,13 @@ export const Navbar = () => {
                   <div className="card-img-overlay d-flex flex-column">
                     <div className="card-body">
                       <h4 className="card-title mt-0 ">
-                        <a
+                        {/*  <a
                           className="text-dark"
                           herf="https://creativemanner.com"
-                        >
-                          CO2{" "}
-                        </a>
+                        > */}
+                        CO2{" "}
+                        {/*                         </a>
+                         */}{" "}
                       </h4>
                     </div>
                   </div>
@@ -167,12 +163,13 @@ export const Navbar = () => {
                   <div className="card-img-overlay d-flex flex-column">
                     <div className="card-body">
                       <h4 className="card-title mt-0 ">
-                        <a
+                        {/*   <a
                           className="text-dark"
                           herf="https://creativemanner.com"
-                        >
-                          Ghiaccio Polare{" "}
-                        </a>
+                        > */}
+                        Ghiaccio Polare{" "}
+                        {/*                         </a>
+                         */}{" "}
                       </h4>
                     </div>
                   </div>
