@@ -63,7 +63,7 @@ const setupChartNo2 = {
       backgroundColor: "rgb(255, 99, 132)",
       borderColor: "rgb(255, 99, 132)",
       data: newArrayNo2,
-      borderWidth: 1, // Cambia lo spessore della linea
+      borderWidth: 2, // Cambia lo spessore della linea
       fill: false, // Impedisce il riempimento sottolineato
       pointBorderWidth: -5, // Cambia lo spessore degli apici dei punti
       pointRadius: 1.5,
@@ -76,8 +76,8 @@ const optionsChart = {
   maintainAspectRatio: false,
   scales: {
     y: {
-      min: 300, // Imposta il valore minimo dell'asse y
-      max: 360, // Imposta il valore massimo dell'asse y
+      min: 310, // Imposta il valore minimo dell'asse y
+      max: 340, // Imposta il valore massimo dell'asse y
       grid: {
         color: "rgba(255, 255, 255, 0.2)", // Colore e opacità delle linee dell'asse X
       },

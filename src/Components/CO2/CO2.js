@@ -44,8 +44,6 @@ export const CO2Section = () => {
             minacciando le comunità costiere
           </p>
         </div>
-
-        {/* ---------- GRAFICO ------------ */}
       </div>
     </div>
   );
@@ -54,16 +52,16 @@ export const CO2Section = () => {
 //--------- grafico ---------
 
 const setupChartTemperatura = {
-  labels: co2Time,
+  labels: co2Time, // y-axis dates
   datasets: [
     {
       label: "CO2",
       backgroundColor: "rgb(255, 99, 132)",
       borderColor: "rgb(255, 99, 132)",
-      data: newArrayCO2,
-      borderWidth: 1, // Cambia lo spessore della linea
-      fill: false, // Impedisce il riempimento sottolineato
-      pointBorderWidth: -5, // Cambia lo spessore degli apici dei punti
+      data: newArrayCO2, // y-axis dates
+      borderWidth: 1, // Change the thickness of the line
+      fill: false, // Prevents underlined fill
+      pointBorderWidth: -5, //Change the thickness of the superscript points
       pointRadius: 1.5,
     },
   ],
@@ -87,15 +85,15 @@ const optionsChart = {
   },
   scales: {
     y: {
-      min: 350, // Set the minimum value of the x-axis
-      max: 450, // Set the minimum value of the y-axis
+      min: 370, // Set the minimum value of the x-axis
+      max: 440, // Set the minimum value of the y-axis
       grid: {
-        color: "rgba(255, 255, 255, 0.3)", // Colore e opacità delle linee dell'asse X
+        color: "rgba(255, 255, 255, 0.3)", // Color and opacity of Y-axis lines
       },
     },
     x: {
       grid: {
-        color: "rgba(255, 255, 255, 0.3)", // Colore e opacità delle linee dell'asse X
+        color: "rgba(255, 255, 255, 0.3)", // Color and opacity of X-axis lines
       },
     },
   },
