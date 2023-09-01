@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; // Import Link for react-router
+
 import "./Header.css";
 import "./cover.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -9,56 +10,6 @@ const Header = () => {
   return (
     <div>
       <Navbar></Navbar>{" "}
-      {/* <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <header className="mb-auto">
-          <div>
-            <h3 className="float-md-start mb-0">Cover</h3>
-            <nav className="nav nav-masthead justify-content-center float-md-end">
-              <a
-                className="nav-link fw-bold py-1 px-0 active"
-                aria-current="page"
-                href="#"
-              >
-                Home
-              </a>
-              <a className="nav-link fw-bold py-1 px-0" href="#">
-                Features
-              </a>
-              <a className="nav-link fw-bold py-1 px-0" href="#">
-                Contact
-              </a>
-            </nav>
-          </div>
-        </header>
-        <main className="px-3">
-          <h1>Climate Change 360.</h1>
-          <p className="lead">
-            Portale dove comparare la variazioni dei parametri che portano al
-            cambiamento Climatico
-          </p>
-          <p className="lead">
-            <a
-              href="#"
-              className="btn btn-lg btn-light fw-bold border-white bg-white"
-            >
-              Learn more
-            </a>
-          </p>
-        </main>
-        <footer className="mt-auto text-white-50">
-          <p>
-            Cover template for{" "}
-            <a href="https://getbootstrap.com/" className="text-white">
-              Bootstrap
-            </a>
-            , by{" "}
-            <a href="https://twitter.com/mdo" className="text-white">
-              @mdo
-            </a>
-            .
-          </p>
-        </footer>
-      </div> */}
       <div className="container2 text-center align-item-center immagine-sfondo">
         <div className="col-6 title " /* inutilizzato title */>
           {" "}
@@ -89,7 +40,6 @@ export const Navbar = () => {
             {" "}
             <ul class="nav ">
               {" "}
-              {/* justify-content-end */}
               <li class="nav-item">
                 <Link to={"/"}>
                   <a class="nav-link active" aria-current="page" href="/">

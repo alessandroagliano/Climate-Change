@@ -87,8 +87,8 @@ const optionsChart = {
   },
   scales: {
     y: {
-      min: 350, // Imposta il valore minimo dell'asse y
-      max: 450, // Imposta il valore massimo dell'asse y
+      min: 350, // Set the minimum value of the x-axis
+      max: 450, // Set the minimum value of the y-axis
       grid: {
         color: "rgba(255, 255, 255, 0.3)", // Colore e opacità delle linee dell'asse X
       },

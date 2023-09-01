@@ -1,5 +1,6 @@
 import React from "react";
-import "./ChiSono.css";
+import "./ChiSono.css"; //css
+
 import { Navbar } from "../../Header/Header";
 import Footer from "../../Footer/Footer";
 
@@ -19,6 +20,7 @@ export const SectionChiSono = () => {
   return (
     <div>
       <div className="px-4 pt-5 my-5 text-center ">
+        {/* TITLE */}
         <h1 className="display-4 fw-bold ">Chi sono</h1>
         <div className="col-lg-9 mx-auto">
           <p className="lead mb-4">
@@ -104,8 +106,6 @@ export const SectionChiSono = () => {
             </li>
           </ul>
         </div>
-
-        {/* ---------- GRAFICO ------------ */}
       </div>
     </div>
   );

@@ -21,7 +21,9 @@ const Footer = () => {
             <p> Alessandro Aglianò</p>
           </div>
           <div className="col-4 d-flex justify-content-center">
+            {/* LINK SOCIAL */}
             <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
+              {/* FACEBOOK */}
               <li>
                 <a href="https://www.facebook.com/alessandro.agliano.1">
                   {" "}
@@ -37,6 +39,7 @@ const Footer = () => {
                   </svg>
                 </a>
               </li>
+              {/* INSTAGRAM */}
               <li>
                 <a href="https://www.instagram.com/alessandroagliano/">
                   {" "}
@@ -52,6 +55,7 @@ const Footer = () => {
                   </svg>
                 </a>
               </li>
+              {/* GITHUB */}
               <li>
                 <a href="https://github.com/alessandroagliano">
                   {" "}

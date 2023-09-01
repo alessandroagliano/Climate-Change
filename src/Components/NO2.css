@@ -3,7 +3,7 @@
   width: 110vh !important;
 }
 
-/* Media query per dispositivi con larghezza massima di 768px (tipicamente smartphone) */
+/* Media query for devices with a maximum width of 768px (typically smartphones) */
 @media (max-width: 768px) {
   .grafico2 {
     height: 300px !important;
