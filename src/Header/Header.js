@@ -28,6 +28,7 @@ export const Navbar = () => {
   return (
     <div>
       {" "}
+      {/* NAVBAR */}
       <nav className="d-flex navbar  " data-bs-theme="dark">
         <div className="container-fluid">
           <Link to={"/"}>
@@ -47,6 +48,7 @@ export const Navbar = () => {
                   </a>
                 </Link>
               </li>
+              {/* DROPDOWN */}
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -78,7 +80,7 @@ export const Navbar = () => {
               <li class="nav-item">
                 <Link to={"./ChiSono"}>
                   <a class="nav-link" href="#https://www.google.it">
-                    Chi siamo
+                    Chi sono
                   </a>
                 </Link>
               </li>

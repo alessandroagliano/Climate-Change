@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# New York Times - Homepage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Copia della Home page del sito ufficiale del New York Times
 
-## Available Scripts
+> Demo dal vivo [_qui_](https://climate-change-360.netlify.app/). <!-- Se hai il progetto ospitato da qualche parte, includi il link qui. -->
 
-In the project directory, you can run:
+## Sommario
 
-### `npm start`
+- [Informazioni generali](#informazioni-generali)
+- [Tecnologie utilizzate](#tecnologie-utilizzate)
+- [Screenshot](#screenshot)
+- [Utilizzo](#utilizzo)
+- [Stato progetto](#stato-progetto)
+- [Ringraziamenti](#riconoscimenti)
+- [Contatto](#contatto)
+- [Licenza](#licenza)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Informazioni generali
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Questo sito intende mostrare e sensibilizzare il visitatore sul tema del cambiamento climatico.
+Inoltre mostra il le variazioni nel tempo di certi parametri che influenzano appunto il cambiamento climatico.
 
-### `npm test`
+## Tecnologie utilizzate
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Html
+- Css
+- Bootstrap
+- Javascript
+- React
+- Redux
+- React Router
+- Chart Js
+- Visual Studio Core ( editor )
+- GitHub
 
-### `npm run build`
+## Screenshot
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="../Climate-Change-/src/img/Homepage-desktop.PNG">
+Screenshoot della’applicazione al suo valore iniziale
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Utilizzo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Il sito è strutturato in modo molto semplice:
 
-### `npm run eject`
+- Homepage: mostra un header e delle cards che collegano alle pagine dei singoli parametri.
+- Statistiche: Una sezione dove appunto vengono mostrati i vari parametri con grafico.
+- Chi siamo: Descrive il sito , di cosa si occupa, tende a sensibilizzare il visitatore e collega a vari link utili esterni per approfondire sull'argomento.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Stato del progetto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Il progetto è completato.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Ringraziamenti
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Questo progetto è l'ultimo del corso per 'Frontend Developer' di Start2Impact e serve per valutare tutte le mie skills acquisite durante il corso.
 
-## Learn More
+## Contatto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Creato da [Alessandro Aglianò](https://alessandroagliano.github.io/)- non esitare a contattarmi!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Licenza -->
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Questo progetto è open source e disponibile sotto la Mit License.
