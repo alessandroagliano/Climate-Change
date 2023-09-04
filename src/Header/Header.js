@@ -3,15 +3,15 @@ import { Link } from "react-router-dom"; // Import Link for react-router
 
 import "./Header.css";
 import "./cover.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min.js"; // Importa il pacchetto JavaScript di Bootstrap
+import "bootstrap/dist/css/bootstrap.min.css"; // Import bootstrap
+import "bootstrap/dist/js/bootstrap.bundle.min.js"; // Import Javascript
 
 const Header = () => {
   return (
     <div>
       <Navbar></Navbar>{" "}
       <div className="container2 text-center align-item-center immagine-sfondo">
-        <div className="col-6 title " /* inutilizzato title */>
+        <div className="col-6 title ">
           {" "}
           <h1>ClimateChange360</h1>;
           <p>Analisi Statistiche per il Cambiamento Climatico</p>

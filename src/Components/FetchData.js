@@ -12,6 +12,8 @@ Then I make a call to the API and from there I extract the data I need and
 
 I will then use these values ​​to create the graph of each respective component. */
 
+//------------------------- TEMPERATURE -------------------------
+
 const apiTemperatura = "https://global-warming.org/api/temperature-api";
 export const newArrayTime = []; // x axis
 export const newArrayTemperature = []; // y axis

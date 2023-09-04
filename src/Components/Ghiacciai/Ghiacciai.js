@@ -61,7 +61,7 @@ const setupChartGhiacciai = {
       fill: false,
       pointBorderWidth: -5,
       pointRadius: 1.5,
-      lineTension: 0.4, // Imposta la curvatura delle linee
+      lineTension: 0.4, // Set the curvature of the lines
     },
     {
       label: "Estensione",
@@ -72,7 +72,7 @@ const setupChartGhiacciai = {
       fill: false,
       pointBorderWidth: -5,
       pointRadius: 1.5,
-      lineTension: 0.4, // Imposta la curvatura delle linee
+      lineTension: 0.4, // Set the curvature of the lines
     },
   ],
 };
@@ -84,12 +84,12 @@ const optionsChart = {
     y: {
       beginAtZero: true,
       grid: {
-        color: "rgba(255, 255, 255, 0.2)", // Colore e opacità delle linee dell'asse X
+        color: "rgba(255, 255, 255, 0.2)", // Color and opacity of Y-axis lines
       },
     },
     x: {
       grid: {
-        color: "rgba(255, 255, 255, 0.2)", // Colore e opacità delle linee dell'asse X
+        color: "rgba(255, 255, 255, 0.2)", // Color and opacity of X-axis lines
       },
     },
   },

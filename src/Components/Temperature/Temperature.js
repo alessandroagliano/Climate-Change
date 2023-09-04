@@ -50,6 +50,7 @@ export const TemperatureSection = () => {
 
 export default Temperature;
 
+/* SETUP CHART */
 const setupChartTemperatura = {
   labels: newArrayTime,
   datasets: [
@@ -58,9 +59,9 @@ const setupChartTemperatura = {
       backgroundColor: "rgb(255, 99, 132)",
       borderColor: "rgb(255, 99, 132)",
       data: newArrayTemperature,
-      borderWidth: 1, // Cambia lo spessore della linea
-      fill: false, // Impedisce il riempimento sottolineato
-      pointBorderWidth: -5, // Cambia lo spessore degli apici dei punti
+      borderWidth: 1, //Change the thickness of the line
+      fill: false, // Prevents underlined fill
+      pointBorderWidth: -5, // Change the radius of the point apexes
       pointRadius: 1.5,
     },
   ],
@@ -73,12 +74,12 @@ const optionsChart = {
     y: {
       beginAtZero: true,
       grid: {
-        color: "rgba(255, 255, 255, 0.2)", // Colore e opacità delle linee dell'asse X
+        color: "rgba(255, 255, 255, 0.2)", // Color and opacity of Y-axis lines
       },
     },
     x: {
       grid: {
-        color: "rgba(255, 255, 255, 0.2)", // Colore e opacità delle linee dell'asse X
+        color: "rgba(255, 255, 255, 0.2)", // Color and opacity of y-axis lines
       },
     },
   },
