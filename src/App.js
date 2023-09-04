@@ -1,5 +1,6 @@
 import React from "react";
 
+// Import all Components
 import Home from "./Home/Home";
 import CO2 from "./Components/CO2/CO2";
 import Ghiacciai from "./Components/Ghiacciai/Ghiacciai";
@@ -8,8 +9,8 @@ import NO2 from "./Components/NO2/NO2";
 import Temperature from "./Components/Temperature/Temperature";
 import ChiSono from "./Components/Chi sono/ChiSono";
 
-import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css"; // Import bootstrap
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Import react-router
 
 function App() {
   return (

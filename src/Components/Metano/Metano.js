@@ -53,9 +53,9 @@ const setupChartMetano = {
       backgroundColor: "rgb(255, 99, 132)",
       borderColor: "rgb(255, 99, 132)",
       data: newArrayMetano,
-      borderWidth: 1, // Cambia lo spessore della linea
-      fill: false, // Impedisce il riempimento sottolineato
-      pointBorderWidth: -5, // Cambia lo spessore degli apici dei punti
+      borderWidth: 1, // Change the thickness of the line
+      fill: false, //  Prevents underlined fill
+      pointBorderWidth: -5, //  Change the radius of the point apexes
       pointRadius: 1.5,
     },
   ],
@@ -66,15 +66,15 @@ const optionsChart = {
   maintainAspectRatio: false,
   scales: {
     y: {
-      min: 1500, // Imposta il valore minimo dell'asse y
-      max: 2000, // Imposta il valore massimo dell'asse y
+      min: 1500, // Set the minium value of the y-axis
+      max: 2000, // Set the maximum value of the y-axis
       grid: {
-        color: "rgba(255, 255, 255, 0.2)", // Colore e opacità delle linee dell'asse X
+        color: "rgba(255, 255, 255, 0.2)", // Color and opacity of Y-axis lines
       },
     },
     x: {
       grid: {
-        color: "rgba(255, 255, 255, 0.2)", // Colore e opacità delle linee dell'asse X
+        color: "rgba(255, 255, 255, 0.2)", // Color and opacity of X-axis lines
       },
     },
   },

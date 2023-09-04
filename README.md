@@ -35,7 +35,7 @@ Inoltre mostra il le variazioni nel tempo di certi parametri che influenzano app
 
 ## Screenshot
 
-<img src="../Climate-Change-/src/img/Homepage-desktop.JPG">
+<img src="./src/img/Homepage-desktop.JPG">
 Screenshoot della’applicazione al suo valore iniziale
 
 ## Utilizzo
