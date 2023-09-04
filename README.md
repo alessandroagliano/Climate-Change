@@ -1,6 +1,6 @@
-# New York Times - Homepage
+# Climate Change Web App - Homepage
 
-Copia della Home page del sito ufficiale del New York Times
+Web App sul cambiamento climatico.
 
 > Demo dal vivo [_qui_](https://climate-change-360.netlify.app/). <!-- Se hai il progetto ospitato da qualche parte, includi il link qui. -->
 
@@ -35,7 +35,7 @@ Inoltre mostra il le variazioni nel tempo di certi parametri che influenzano app
 
 ## Screenshot
 
-<img src="../Climate-Change-/src/img/Homepage-desktop.PNG">
+<img src="../Climate-Change-/src/img/Homepage-desktop.JPG">
 Screenshoot della’applicazione al suo valore iniziale
 
 ## Utilizzo
