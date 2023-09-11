@@ -10,11 +10,11 @@ const Header = () => {
   return (
     <div>
       <Navbar></Navbar>{" "}
-      <div className="container2 text-center align-item-center immagine-sfondo">
+      <div className="container2 text-center align-item-center background-image">
         <div className="col-6 title ">
           {" "}
           <h1>ClimateChange360</h1>;
-          <p>Analisi Statistiche per il Cambiamento Climatico</p>
+          <p>Statistical Analysis for Climate Change</p>
         </div>
         <div className="col-6 "></div>
       </div>{" "}
@@ -57,20 +57,20 @@ export const Navbar = () => {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Statistiche
+                  Statistics
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <Link to={"/Temperature"}>Temperatura</Link>
+                    <Link to={"/Temperature"}>Temperature</Link>
                   </li>
                   <li>
                     <Link to={"/CO2"}>Co2</Link>
                   </li>
                   <li>
-                    <Link to={"/Ghiacciai"}>Ghiacciai</Link>
+                    <Link to={"/Glaciers"}>Glaciers</Link>
                   </li>
                   <li>
-                    <Link to={"/Metano"}>Metano</Link>
+                    <Link to={"/Methane"}>Methane</Link>
                   </li>
                   <li>
                     <Link to="/NO2">NO2</Link>
@@ -78,9 +78,9 @@ export const Navbar = () => {
                 </ul>
               </li>
               <li class="nav-item">
-                <Link to={"./ChiSono"}>
+                <Link to={"/WhoIAm"}>
                   <a class="nav-link" href="#https://www.google.it">
-                    Chi sono
+                    Who I Am
                   </a>
                 </Link>
               </li>

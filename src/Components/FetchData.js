@@ -14,17 +14,17 @@ I will then use these values ​​to create the graph of each respective compon
 
 //------------------------- TEMPERATURE -------------------------
 
-const apiTemperatura = "https://global-warming.org/api/temperature-api";
+const apiTemperature = "https://global-warming.org/api/temperature-api";
 export const newArrayTime = []; // x axis
 export const newArrayTemperature = []; // y axis
 
 await axios
-  .get(apiTemperatura)
+  .get(apiTemperature)
   .then((response) => {
-    let datiApi = response.data.result;
-    console.log(datiApi);
+    let dataApi = response.data.result;
+    console.log(dataApi);
 
-    datiApi.forEach((item, index) => {
+    dataApi.forEach((item, index) => {
       if (index % 2 === 0) {
         newArrayTime.push(item.time);
         newArrayTemperature.push(item.station);
@@ -33,30 +33,30 @@ await axios
   })
 
   .catch((error) => {
-    console.error("Errore nella richiesta:", error);
+    console.error("Error in request:", error);
   });
 
-//------------------------- METANO -------------------------
+//------------------------- Methane -------------------------
 
-const apiMetano = "https://global-warming.org/api/methane-api";
-export const metanoTime = []; // x axis
-export const newArrayMetano = []; // y axis
+const apiMethane = "https://global-warming.org/api/methane-api";
+export const methaneTime = []; // x axis
+export const newArrayMethane = []; // y axis
 await axios
-  .get(apiMetano)
+  .get(apiMethane)
   .then((response) => {
-    let datiApi = response.data.methane;
-    console.log(datiApi);
+    let dataApi = response.data.methane;
+    console.log(dataApi);
 
-    datiApi.forEach((item, index) => {
+    dataApi.forEach((item, index) => {
       if (index % 2 === 0) {
-        metanoTime.push(item.date);
-        newArrayMetano.push(item.average);
+        methaneTime.push(item.date);
+        newArrayMethane.push(item.average);
       }
     });
   })
 
   .catch((error) => {
-    console.error("Errore nella richiesta:", error);
+    console.error("Error in the request", error);
   });
 console.log(newArrayTime);
 console.log(newArrayTemperature);
@@ -70,10 +70,10 @@ await axios
   .get(apiCO2)
   .then((response) => {
     console.log(response);
-    let datiApi = response.data.co2;
-    console.log(datiApi);
+    let dataApi = response.data.co2;
+    console.log(dataApi);
 
-    datiApi.forEach((item, index) => {
+    dataApi.forEach((item, index) => {
       if (index % 2 === 0) {
         co2Time.push(item.year);
         newArrayCO2.push(item.trend);
@@ -82,37 +82,37 @@ await axios
   })
 
   .catch((error) => {
-    console.error("Errore nella richiesta:", error);
+    console.error("Error in the request", error);
   });
 
-//------------------------- GHIACCIO POLARE -------------------------
+//------------------------- Polar Ice -------------------------
 
 /*  for polar ice I extrapolated both 'area' and 'extent'.
 In the graph I will form two lines.*/
 
-const apiGhiacciai = "https://global-warming.org/api/arctic-api";
-export const ghiacciaiTime = []; // x axis
-export const newArrayGhiacciaiArea = []; // y axis
-export const newArrayGhiacciaiExtent = []; // y axis
+const apiGlaciers = "https://global-warming.org/api/arctic-api";
+export const glaciersTime = []; // x axis
+export const newArrayGlaciersArea = []; // y axis
+export const newArrayGlaciersExtent = []; // y axis
 
 await axios
-  .get(apiGhiacciai)
+  .get(apiGlaciers)
   .then((response) => {
     console.log(response);
-    let datiApi = response.data.arcticData;
-    console.log(datiApi);
+    let dataApi = response.data.arcticData;
+    console.log(dataApi);
 
-    datiApi.forEach((item, index) => {
+    dataApi.forEach((item, index) => {
       if (index % 2 === 0) {
-        ghiacciaiTime.push(item.year);
-        newArrayGhiacciaiArea.push(item.area);
-        newArrayGhiacciaiExtent.push(item.extent);
+        glaciersTime.push(item.year);
+        newArrayGlaciersArea.push(item.area);
+        newArrayGlaciersExtent.push(item.extent);
       }
     });
   })
 
   .catch((error) => {
-    console.error("Errore nella richiesta:", error);
+    console.error("Error in the request:", error);
   });
 
 //------------------------- NO2 -------------------------
@@ -124,10 +124,10 @@ export const newArrayNo2 = []; // y axis
 await axios
   .get(apiNO2)
   .then((response) => {
-    let datiApi = response.data.nitrous;
-    console.log(datiApi);
+    let dataApi = response.data.nitrous;
+    console.log(dataApi);
 
-    datiApi.forEach((item, index) => {
+    dataApi.forEach((item, index) => {
       if (index % 2 === 0) {
         No2Time.push(item.date);
         newArrayNo2.push(item.average);
@@ -138,5 +138,5 @@ await axios
   })
 
   .catch((error) => {
-    console.error("Errore nella richiesta:", error);
+    console.error("Error in the request:", error);
   });

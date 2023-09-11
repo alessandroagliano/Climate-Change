@@ -1,62 +1,62 @@
 import React from "react";
-import "./Ghiacciai.css";
+import "./Glaciers.css";
 import { Navbar } from "../../Header/Header";
 import Footer from "../../Footer/Footer";
 
 import { Line } from "react-chartjs-2";
 import {
-  newArrayGhiacciaiArea,
-  newArrayGhiacciaiExtent,
-  ghiacciaiTime,
+  newArrayGlaciersArea,
+  newArrayGlaciersExtent,
+  glaciersTime,
 } from "../FetchData";
 
-const Ghiacciai = () => {
+const Glaciers = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <GhiacciaiSection></GhiacciaiSection>
+      <GlaciersSection></GlaciersSection>
       <LineChart></LineChart>
       <Footer></Footer>
     </div>
   );
 };
 
-export default Ghiacciai;
+export default Glaciers;
 
-export const GhiacciaiSection = () => {
+export const GlaciersSection = () => {
   return (
     <div>
       <div className="px-4 pt-5 my-5 text-center ">
-        <h1 className="display-4 fw-bold ">Ghiaccio Polare</h1>
+        <h1 className="display-4 fw-bold ">Polar Ice</h1>
         <div className="col-lg-9 mx-auto">
           <p className="lead mb-4">
             {" "}
-            Lo scioglimento accelerato dei ghiacciai è causato principalmente
-            dall'aumento delle temperature globali. Questo fenomeno è alimentato
-            dalle emissioni di gas serra, come il metano, prodotto da attività
-            umane e processi naturali. L'effetto serra trattiene il calore
-            nell'atmosfera, innescando scioglimenti ghiacciati. Le conseguenze
-            includono l'innalzamento dei mari, modifiche negli ecosistemi e
-            impatti climatici estremi. È cruciale agire riducendo le emissioni e
-            adottando soluzioni sostenibili per affrontare questa sfida.
+            The accelerated melting of glaciers is mainly caused by the increase
+            in global temperatures. This phenomenon is fueled from emissions of
+            greenhouse gases, such as methane, produced by activities human and
+            natural processes. The greenhouse effect retains heat into the
+            atmosphere, triggering icy melts. The consequences include rising
+            seas, changes in ecosystems and extreme climate impacts. It is
+            crucial to act by reducing emissions and adopting sustainable
+            solutions to address this challenge.
           </p>
         </div>
 
-        {/* ---------- GRAFICO ------------ */}
+        {/* ---------- Graphic ------------ */}
       </div>
     </div>
   );
 };
 
-//--------------- GRAFICO ---------------
-const setupChartGhiacciai = {
-  labels: ghiacciaiTime,
+//--------------- Graphic ---------------
+const setupChartGlaciers = {
+  labels: glaciersTime,
   datasets: [
     {
       label: "Area",
       backgroundColor: "rgb(255, 99, 132)",
       borderColor: "rgb(255, 99, 132)",
-      data: newArrayGhiacciaiArea,
+      data: newArrayGlaciersArea,
       borderWidth: 2,
       fill: false,
       pointBorderWidth: -5,
@@ -64,10 +64,10 @@ const setupChartGhiacciai = {
       lineTension: 0.4, // Set the curvature of the lines
     },
     {
-      label: "Estensione",
+      label: "Extension",
       backgroundColor: "rgb(54, 162, 235)",
       borderColor: "rgb(54, 162, 235)",
-      data: newArrayGhiacciaiExtent,
+      data: newArrayGlaciersExtent,
       borderWidth: 2,
       fill: false,
       pointBorderWidth: -5,
@@ -113,7 +113,7 @@ const LineChart = (data, options) => {
       <div>
         <Line
           className="grafico"
-          data={setupChartGhiacciai}
+          data={setupChartGlaciers}
           options={optionsChart}
         />
       </div>

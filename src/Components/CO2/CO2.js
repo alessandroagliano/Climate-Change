@@ -26,22 +26,22 @@ export const CO2Section = () => {
         <div className="col-lg-9 mx-auto">
           <p className="lead mb-4">
             {" "}
-            La CO2, o anidride carbonica, è un gas naturale presente
-            nell'atmosfera che svolge un ruolo vitale nella regolazione termica
-            del pianeta. Tuttavia, le attività umane, come l'uso di carburanti
-            fossili e la deforestazione, hanno aumentato in modo significativo
-            le sue concentrazioni atmosferiche. Questo aumento ha un impatto
-            diretto sul cambiamento climatico.
+            CO2, or carbon dioxide, is a naturally occurring gas in the
+            atmosphere which plays a vital role in thermal regulation of the
+            planet. However, human activities, such as the use of fuels fossils
+            and deforestation have increased significantly its atmospheric
+            concentrations. This increase has an impact directly on climate
+            change.
           </p>
 
           <p className="lead mb-4">
-            L'accumulo di CO2 nell'atmosfera agisce come una coperta termica,
-            intrappolando il calore e causando l'effetto serra. Di conseguenza,
-            le temperature globali aumentano, portando a fenomeni estremi come
-            ondate di calore, tempeste più intense e siccità prolungate.
-            Inoltre, il riscaldamento globale accelera lo scioglimento dei
-            ghiacciai e contribuisce all'innalzamento del livello del mare,
-            minacciando le comunità costiere
+            The accumulation of CO2 in the atmosphere acts like a thermal
+            blanket, trapping heat and causing the greenhouse effect.
+            Consequentially, global temperatures increase, leading to extreme
+            phenomena such as heat waves, more intense storms and prolonged
+            droughts. Furthermore, global warming accelerates the melting of
+            glaciers and contributes to sea level rise, threatening coastal
+            communities
           </p>
         </div>
       </div>
@@ -49,7 +49,7 @@ export const CO2Section = () => {
   );
 };
 
-//--------- grafico ---------
+//--------- graphic ---------
 
 const setupChartTemperatura = {
   labels: co2Time, // y-axis dates
@@ -104,7 +104,7 @@ const LineChart = (data, options) => {
     <div className="d-flex justify-content-center">
       <div>
         <Line
-          className="grafico"
+          className="graphic"
           data={setupChartTemperatura}
           options={optionsChart}
         />

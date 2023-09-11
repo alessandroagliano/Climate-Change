@@ -11,32 +11,32 @@ const Section = () => {
           <div className="row">
             <div className="col text-center mb-5">
               <h2 className="lead">
-                In questo sito puoi trovare statistiche per i seguenti dati:
+                On this site you can find statistics for the following data:{" "}
               </h2>
             </div>
           </div>
           {/*  DIV CARD */}
           <div className="row">
             {" "}
-            {/* CARD METANO */}
+            {/* CARD METHANE */}
             <div className="col-sm-12 col-md-6 col-lg-4 mb-4">
-              <Link to={"./Metano"}>
+              <Link to={"./Methane"}>
                 <div className="card text-dark card-has-bg click-col">
                   <div className="card-img-overlay d-flex flex-column">
                     <div className="card-body">
-                      <h4 className="card-title mt-0 ">Metano </h4>
+                      <h4 className="card-title mt-0 ">Methane </h4>
                     </div>
                   </div>
                 </div>
               </Link>
             </div>
-            {/* CARD TEMPERATURA */}{" "}
+            {/* CARD TEMPERATURE */}{" "}
             <div className="col-sm-12 col-md-6 col-lg-4 mb-4">
               <Link to={"./Temperature"}>
                 <div className="card text-dark card-has-bg click-col">
                   <div className="card-img-overlay d-flex flex-column">
                     <div className="card-body">
-                      <h4 className="card-title mt-0 ">Temperatura </h4>
+                      <h4 className="card-title mt-0 ">Temperature </h4>
                     </div>
                   </div>
                 </div>
@@ -66,13 +66,13 @@ const Section = () => {
                 </div>
               </Link>
             </div>
-            {/* CARD GHIACCIO POLARE */}{" "}
+            {/* CARD GlLACIER */}{" "}
             <div className="col-sm-12 col-md-6 col-lg-4 mb-4">
-              <Link to={"./Ghiacciai"}>
+              <Link to={"./Glaciers"}>
                 <div className="card text-dark card-has-bg click-col">
                   <div className="card-img-overlay d-flex flex-column">
                     <div className="card-body">
-                      <h4 className="card-title mt-0 ">Ghiaccio Polare </h4>
+                      <h4 className="card-title mt-0 ">Glacier </h4>
                     </div>
                   </div>
                 </div>

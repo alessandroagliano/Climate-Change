@@ -7,36 +7,36 @@
   max-width: auto;
   color: rgb(0, 0, 0);
   background-color: rgb(244, 249, 252);
-  background-image: url("../HomeBackgroundHearth.jpg"); /* Sostituisci con il percorso dell'immagine */
-  background-size: cover; /* Adatta l'immagine alle dimensioni del contenitore */
-  background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
-  /* Altri stili desiderati per il contenitore */
+  background-image: url("../HomeBackgroundHearth.jpg"); /* Replace with the path to the image*/
+  background-size: cover; /* Fit the image to the size of the container */
+  background-repeat: no-repeat; /* Avoid image repetition */
+  /* Other styles desired for the container */
 }
 
 .cover-container {
-  background-image: url("../HomeBackgroundHearth.jpg"); /* Sostituisci con il percorso dell'immagine */
+  background-image: url("../HomeBackgroundHearth.jpg"); /* Replace with the path to the image */
 }
 /* 
 .title {
 } */
 
-.immagine-sfondo {
+.background-image {
   height: 100vh;
-  background-image: url("../HomeBackgroundHearth.jpg"); /* Sostituisci con il percorso dell'immagine */
-  background-size: cover; /* Adatta l'immagine alle dimensioni del contenitore */
-  background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
+  background-image: url("../HomeBackgroundHearth.jpg"); /* Replace with the path to the image */
+  background-size: cover; /* Fit the image to the size of the container */
+  background-repeat: no-repeat; /* Avoid image repetition */
 }
 
-/* Media query per dispositivi con larghezza massima di 768px (tipicamente smartphone) */
+/* Media queries for devices with a maximum width of 768px (typically smartphones) */
 @media (max-width: 768px) {
   .navbar > .container-fluid {
     justify-content: center !important;
   }
 
-  .immagine-sfondo {
+  .background-image {
     height: 60vh;
-    background-image: url("../HomeBackgroundHearth.jpg"); /* Sostituisci con il percorso dell'immagine */
-    background-size: cover; /* Adatta l'immagine alle dimensioni del contenitore */
-    background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
+    background-image: url("../HomeBackgroundHearth.jpg"); /* Replace with the path to the image */
+    background-size: cover; /* Fit the image to the size of the container */
+    background-repeat: no-repeat; /* Avoid image repetition  */
   }
 }
