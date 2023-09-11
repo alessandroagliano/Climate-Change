@@ -112,7 +112,7 @@ const LineChart = (data, options) => {
     <div className="d-flex justify-content-center">
       <div>
         <Line
-          className="grafico"
+          className="graphic"
           data={setupChartGlaciers}
           options={optionsChart}
         />
