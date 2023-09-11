@@ -1,4 +1,4 @@
-.grafico {
+.graphic {
   height: 500px !important;
   width: 110vh !important;
   max-width: 100%;
@@ -6,7 +6,7 @@
 
 /* Media query for devices with a maximum width of 768px (typically smartphones) */
 @media (max-width: 768px) {
-  .grafico {
+  .graphic {
     height: 300px !important;
   }
 }
