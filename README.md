@@ -1,63 +1,62 @@
-# Climate Change Web App - Homepage
+# Climate Change Web App - Home page
 
-Web App sul cambiamento climatico.
+Web App on climate change.
 
-> Demo dal vivo [_qui_](https://climate-change-360.netlify.app/). <!-- Se hai il progetto ospitato da qualche parte, includi il link qui. -->
+> Live demo [_here_](https://climate-change-360.netlify.app/). <!-- If you have the project hosted somewhere, include the link here. -->
 
-## Sommario
+##Summary
 
-- [Informazioni generali](#informazioni-generali)
-- [Tecnologie utilizzate](#tecnologie-utilizzate)
+- [General information](#general-information)
+- [Technologies used](#technologies-used)
 - [Screenshot](#screenshot)
-- [Utilizzo](#utilizzo)
-- [Stato progetto](#stato-progetto)
-- [Ringraziamenti](#riconoscimenti)
-- [Contatto](#contatto)
-- [Licenza](#licenza)
+- [Usage](#usage)
+- [Project status](#project-status)
+- [Acknowledgments](#acknowledgments)
+- [Contact](#contact)
+- [License](#license)
 
-## Informazioni generali
+## General informations
 
-Questo sito intende mostrare e sensibilizzare il visitatore sul tema del cambiamento climatico.
-Inoltre mostra il le variazioni nel tempo di certi parametri che influenzano appunto il cambiamento climatico.
+This site intends to show and raise visitor awareness on the topic of climate change.
+It also shows the variations over time of certain parameters that influence climate change.
 
-## Tecnologie utilizzate
+##Used technologies
 
-- Html
+- HTML
 - Css
 - Bootstrap
 - Javascript
 - React
-- Redux
 - React Router
-- Chart Js
-- Visual Studio Core ( editor )
+- Chatt js
+- Visual Studio Core (publisher)
 - GitHub
 
 ## Screenshot
 
 <img src="./src/img/Homepage-desktop.JPG">
-Screenshoot della’applicazione al suo valore iniziale
+Screenshot of the application at its initial value
 
-## Utilizzo
+## Usage
 
-Il sito è strutturato in modo molto semplice:
+The site is structured very simply:
 
-- Homepage: mostra un header e delle cards che collegano alle pagine dei singoli parametri.
-- Statistiche: Una sezione dove appunto vengono mostrati i vari parametri con grafico.
-- Chi siamo: Descrive il sito , di cosa si occupa, tende a sensibilizzare il visitatore e collega a vari link utili esterni per approfondire sull'argomento.
+- Homepage: shows a header and tabs that connect to the individual parameter pages.
+- Statistics: A section where the various parameters are shown with graphs.
+- Who we are: Describes the site, what it does, tends to raise visitor awareness and links to various useful external links for further information on the topic.
 
-## Stato del progetto
+## Project status
 
-Il progetto è completato.
+The project is completed.
 
-## Ringraziamenti
+##Thanks
 
-Questo progetto è l'ultimo del corso per 'Frontend Developer' di Start2Impact e serve per valutare tutte le mie skills acquisite durante il corso.
+This project is the last of the Start2Impact 'Frontend Developer' course and serves to evaluate all my skills acquired during the course.
 
-## Contatto
+##Contact
 
-Creato da [Alessandro Aglianò](https://alessandroagliano.github.io/)- non esitare a contattarmi!
+Created by [Alessandro Aglianò](https://alessandroagliano.github.io/) - don't hesitate to contact me!
 
-## Licenza -->
+## License -->
 
-Questo progetto è open source e disponibile sotto la Mit License.
+This project is open source and available under the Mit license.
