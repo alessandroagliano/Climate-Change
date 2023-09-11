@@ -22,25 +22,24 @@ export const TemperatureSection = () => {
   return (
     <div>
       <div className="px-4 pt-5 my-5 text-center ">
-        <h1 className="display-4 fw-bold ">Temperatura</h1>
+        <h1 className="display-4 fw-bold ">Temperature</h1>
         <div className="col-lg-9 mx-auto">
           <p className="lead mb-4">
             {" "}
-            L'aumento delle temperature globali è innescato principalmente
-            dall'emissione eccessiva di gas serra, quali anidride carbonica e
-            metano, dovuta alle attività umane come industria e trasporti.
-            Questi gas intrappolano il calore nell'atmosfera, creando l'effetto
-            serra e portando a cambiamenti climatici significativi.
+            The rise in global temperatures is mainly triggered from the
+            excessive emission of greenhouse gases, such as carbon dioxide and
+            methane, due to human activities such as industry and transport.
+            These gases trap heat in the atmosphere, creating the effect
+            greenhouse and leading to significant climate change.
           </p>
 
           <p className="lead mb-4">
-            Le conseguenze sono molteplici: lo scioglimento dei ghiacciai
-            contribuisce all'innalzamento del livello del mare, minacciando le
-            coste e le popolazioni costiere. Eventi meteorologici estremi come
-            tempeste e ondate di calore sono sempre più frequenti, causando
-            danni a infrastrutture e agricoltura. Ecosistemi vitali, come le
-            barriere coralline, sono in pericolo, e ciò incide sulla
-            biodiversità.
+            The consequences are multiple: the melting of glaciers contributes
+            to sea level rise, threatening the coasts and coastal populations.
+            Extreme weather events such as storms and heat waves are
+            increasingly frequent, causing damage to infrastructure and
+            agriculture. Vital ecosystems, such as coral reefs, are in danger,
+            and this affects the biodiversity.
           </p>
         </div>
       </div>
@@ -51,11 +50,11 @@ export const TemperatureSection = () => {
 export default Temperature;
 
 /* SETUP CHART */
-const setupChartTemperatura = {
+const setupChartTemperature = {
   labels: newArrayTime,
   datasets: [
     {
-      label: "Temperatura",
+      label: "Temperature",
       backgroundColor: "rgb(255, 99, 132)",
       borderColor: "rgb(255, 99, 132)",
       data: newArrayTemperature,
@@ -102,8 +101,8 @@ const LineChart = (data, options) => {
     <div className="d-flex justify-content-center ">
       <div>
         <Line
-          className="grafico"
-          data={setupChartTemperatura}
+          className="graphic"
+          data={setupChartTemperature}
           options={optionsChart}
         />
       </div>
