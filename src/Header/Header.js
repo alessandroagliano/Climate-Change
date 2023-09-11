@@ -78,7 +78,7 @@ export const Navbar = () => {
                 </ul>
               </li>
               <li class="nav-item">
-                <Link to={"./WhoIAm"}>
+                <Link to={"/WhoIAm"}>
                   <a class="nav-link" href="#https://www.google.it">
                     Who I Am
                   </a>

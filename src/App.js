@@ -7,7 +7,7 @@ import Glaciers from "./Components/Glaciers/Glaciers";
 import Methane from "./Components/Methane/Methane";
 import NO2 from "./Components/NO2/NO2";
 import Temperature from "./Components/Temperature/Temperature";
-import WhoIAm from "./Components/Who I Am/WhoIAm";
+import WhoIAm from "./Components/WhoIAm/WhoIAm";
 
 import "bootstrap/dist/css/bootstrap.min.css"; // Import bootstrap
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Import react-router
